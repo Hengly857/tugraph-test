@@ -60,7 +60,7 @@ import static com.antgroup.geaflow.common.config.keys.ExecutionConfigKeys.*;
 import static com.antgroup.geaflow.common.config.keys.FrameworkConfigKeys.SYSTEM_OFFSET_BACKEND_TYPE;
 import static com.antgroup.geaflow.common.config.keys.FrameworkConfigKeys.SYSTEM_STATE_BACKEND_TYPE;
 
-public class CaseKiller {
+public class PatternMatch {
     private static final Logger LOGGER = LoggerFactory.getLogger(CaseKiller.class);
     static Integer eValueZero1 = Integer.MAX_VALUE - 4;
     static Integer eValueZero3 = Integer.MAX_VALUE - 3;
