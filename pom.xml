@@ -111,7 +111,7 @@
                 <version>2.4</version>
                 <!--assembly的配置-->
                 <configuration>
-                    <finalName>casekiller</finalName>
+                    <finalName>patternmatch</finalName>
                     <!--这里先使用自带的打包，后续再修改成复杂的-->
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -120,7 +120,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.antgroup.geaflow.match.CaseKiller
+                            <mainClass>com.antgroup.geaflow.match.PatternMatch
                             </mainClass> <!-- 你的主类名 -->
                         </manifest>
                     </archive>
